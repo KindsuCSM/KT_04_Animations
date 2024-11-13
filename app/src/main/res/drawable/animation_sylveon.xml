@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sylveon_1" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_5" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_10" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_15" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_20" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_25" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_30" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_35" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_40" android:duration="100"/>
+    <item android:drawable="@drawable/sylveon_45" android:duration="100"/>
+</animation-list>

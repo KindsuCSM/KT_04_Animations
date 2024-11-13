@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/glaceon_1" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_5" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_15" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_20" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_25" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_30" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_35" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_40" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_45" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_50" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_55" android:duration="100"/>
+    <item android:drawable="@drawable/glaceon_59" android:duration="100"/>
+</animation-list>

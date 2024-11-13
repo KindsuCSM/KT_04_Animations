@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vaporeon_1" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_5" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_10" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_15" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_20" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_25" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_30" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_35" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_40" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_45" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_50" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_55" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_60" android:duration="100"/>
+    <item android:drawable="@drawable/vaporeon_63" android:duration="100"/>
+</animation-list>

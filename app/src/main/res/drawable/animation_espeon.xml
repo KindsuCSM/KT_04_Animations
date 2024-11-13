@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/espeon_1" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_5" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_10" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_15" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_20" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_25" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_30" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_35" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_40" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_45" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_50" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_55" android:duration="100"/>
+    <item android:drawable="@drawable/espeon_60" android:duration="100"/>
+</animation-list>

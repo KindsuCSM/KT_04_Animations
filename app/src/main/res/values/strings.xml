@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Animations_CristinaSanchezMoreno</string>
+    <string name="app_name">MiniPokedex</string>
+    <string name="strAccion">Pulse un pokemon</string>
+    <string name="strEevee">Eevee</string>
+    <string name="strEspeon">Espeon</string>
+    <string name="strFlareon">Flareon</string>
+    <string name="strGlaceon">Glaceon</string>
+    <string name="strJolteon">Jolteon</string>
+    <string name="strLeafeon">Leafeon</string>
+    <string name="strSylveon">Sylveon</string>
+    <string name="strUmbreon">Umbreon</string>
+    <string name="strVaporeon">Vaporeon</string>
+    <string name="descripcionEevee">Pokémon de tipo Normal conocido por su genética inestable, lo que le permite evolucionar en múltiples formas dependiendo de las condiciones. Es pequeño, amistoso y de gran adaptabilidad.</string>
+    <string name="descripcionEspeon">Tipo Psíquico, evoluciona con alta amistad de día; predice movimientos con su fino pelaje.</string>
+    <string name="descripcionFlareon">Tipo Fuego, evolucionado con una Piedra Fuego; almacena calor interno que libera como llamas.</string>
+    <string name="descripcionGlaceon">Tipo Hielo, evoluciona cerca de una roca helada; congela su entorno con facilidad.</string>
+    <string name="descripcionJolteon">Tipo Eléctrico, evoluciona con una Piedra Trueno; acumula electricidad estática para ataques rápidos.</string>
+    <string name="descripcionLeafeon">Tipo Planta, evolucionado cerca de una roca musgosa; purifica el aire a su alrededor.</string>
+    <string name="descripcionSylveon">Tipo Hada, obtenido con alta amistad y conocimientos de movimientos Hada; usa sus cintas para calmar emociones.</string>
+    <string name="descripcionUmbreon">Tipo Siniestro, se obtiene con alta amistad nocturna; emite veneno desde su piel.</string>
+    <string name="descripcionVaporeon">Tipo Agua, desarrollado con una Piedra Agua; tiene cuerpo acuático que se mimetiza con el agua.</string>
 </resources>

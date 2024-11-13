@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/flareon_1" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_5" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_10" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_15" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_20" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_25" android:duration="100"/>
+    <item android:drawable="@drawable/flareon_29" android:duration="100"/>
+</animation-list>

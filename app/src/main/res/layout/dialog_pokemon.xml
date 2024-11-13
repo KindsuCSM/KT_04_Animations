@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tvPokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20sp"
+        android:textColor="@color/txtColorClaro"
+        android:fontFamily="@font/font_sour_gummy"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/ivPokemonAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvPokemonDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_sour_gummy"
+        android:textAlignment="center"
+        android:textColor="@color/txtColorClaro"/>
+</LinearLayout>
