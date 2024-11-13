@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/eevee_1" android:duration="100"/>
-    <item android:drawable="@drawable/eevee_5" android:duration="100"/>
-    <item android:drawable="@drawable/eevee_10" android:duration="100"/>
-    <item android:drawable="@drawable/eevee_15" android:duration="100"/>
-    <item android:drawable="@drawable/eevee_20" android:duration="100"/>
-    <item android:drawable="@drawable/eevee_25" android:duration="100"/>
+    <item android:drawable="@drawable/eevee_1" android:duration="125"/>
+    <item android:drawable="@drawable/eevee_5" android:duration="125"/>
+    <item android:drawable="@drawable/eevee_10" android:duration="125"/>
+    <item android:drawable="@drawable/eevee_15" android:duration="125"/>
+    <item android:drawable="@drawable/eevee_20" android:duration="125"/>
+    <item android:drawable="@drawable/eevee_25" android:duration="125"/>
 </animation-list>

@@ -12,4 +12,5 @@
     <item android:drawable="@drawable/glaceon_50" android:duration="100"/>
     <item android:drawable="@drawable/glaceon_55" android:duration="100"/>
     <item android:drawable="@drawable/glaceon_59" android:duration="100"/>
+
 </animation-list>
