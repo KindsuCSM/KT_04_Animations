@@ -1,5 +1,6 @@
 package com.kindsu.animations_cristinasanchezmoreno
 
+import android.graphics.drawable.Animatable
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.widget.ImageView
@@ -9,11 +10,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 import com.kindsu.animations_cristinasanchezmoreno.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var Animation : AnimationDrawable
     private lateinit var binding : ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -92,7 +94,7 @@ class MainActivity : AppCompatActivity() {
     // Funcion que crea las ventanas Dialog con la información de cada pokemon
     private fun setDialog(pokemon : String){
         // Para no repetir lineas de codigo declaramos las variables que vamos a usar en cada dialog
-        var animationDrawable : AnimationDrawable
+        val animationDrawable : AnimationDrawable
         val dialog: AlertDialog
 
         // Declaramos e inicializamos los componentes que vamos a usar para poner la informacion del Pokemon
@@ -100,10 +102,23 @@ class MainActivity : AppCompatActivity() {
         val alertaDialog = layoutInflater.inflate(R.layout.dialog_pokemon, null)
             // Creamos el objeto AlertDialog.Builder para construir el dialogo de forma personalizada
         val builder = AlertDialog.Builder(this)
+            // Creamos las variable para asociar el componente de la pantalla a la variable
+        val animacionVectorIzq = alertaDialog.findViewById<ImageView>(R.id.ivPokeball_izq)
+        val animacionVectorDer = alertaDialog.findViewById<ImageView>(R.id.ivPokeball_der)
             // Le damos valores a unas variables de los componentes que vamos a cambiar dependiendo del Pokemon
         val nombrePokemon = alertaDialog.findViewById<TextView>(R.id.tvPokemonName)
         val textoDescriptivo = alertaDialog.findViewById<TextView>(R.id.tvPokemonDescripcion)
         val animation = alertaDialog.findViewById<ImageView>(R.id.ivPokemonAnimation)
+
+        // Inicializar las animaciones vectoriales con AnimatedVectorDrawableCompat que iran al inicio
+            // y fin del titulo (nombre de pokemon) que se encuentra en el dialog personalizado
+        val drawable = AnimatedVectorDrawableCompat.create(this, R.drawable.animated_pokeball)
+        animacionVectorIzq.setImageDrawable(drawable)
+        animacionVectorDer.setImageDrawable(drawable)
+        if(drawable is Animatable){
+           drawable.start()
+        }
+
         // Dependiendo de la string que nos pasen por parametro establecemos los valores de los elementos de dialog_pokemon
         when(pokemon){
             "eevee" -> {
@@ -152,6 +167,8 @@ class MainActivity : AppCompatActivity() {
                 textoDescriptivo.setText(R.string.descripcionVaporeon)
                 animation.setBackgroundResource(R.drawable.animation_vaporeon)
             }
+
+
         }
         // Establecemos que los fondos son animaciones y las iniciamoss
         animationDrawable = animation.background as AnimationDrawable
@@ -163,5 +180,4 @@ class MainActivity : AppCompatActivity() {
         // Mostramos el dialog
         dialog.show()
     }
-
 }

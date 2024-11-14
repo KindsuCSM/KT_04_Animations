@@ -6,16 +6,31 @@
     android:orientation="vertical"
     android:padding="40dp"
     android:gravity="center">
-    <TextView
-        android:id="@+id/tvPokemonName"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="20sp"
-        android:textColor="@color/txtColorClaro"
-        android:fontFamily="@font/font_sour_gummy"
-        android:layout_marginBottom="20dp"
-        android:textStyle="bold"/>
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/ivPokeball_izq"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:id="@+id/tvPokemonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:textColor="@color/txtColorClaro"
+            android:fontFamily="@font/font_sour_gummy"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/ivPokeball_der"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
     <ImageView
         android:id="@+id/ivPokemonAnimation"
         android:layout_width="wrap_content"
